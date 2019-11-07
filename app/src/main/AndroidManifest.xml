@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.itla.testappdb">
+    package="com.itla.school">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".activity.CreateSubjectActivity"></activity>
-        <activity android:name=".activity.CreateCareerActivity" />
-        <activity android:name=".activity.CareerListActivity" />
-        <activity android:name=".activity.StudentListActivity" />
-        <activity android:name=".activity.CreateStudentActivity" />
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.itla.school.activity.CreateSubjectActivity" />
+        <activity android:name="com.itla.school.activity.CreateCareerActivity" />
+        <activity android:name="com.itla.school.activity.CareerListActivity" />
+        <activity android:name="com.itla.school.activity.StudentListActivity" />
+        <activity android:name="com.itla.school.activity.CreateStudentActivity" />
+        <activity android:name="com.itla.school.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
